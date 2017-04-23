@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.playlist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.thumbnail-container {
+  height: 200px;
+  width: auto;
+}
+
+#thumbnail-image {
+  height: 200px;
+  width: 200px;
+  border:2px solid yellow;
+}
+
+.song-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.song-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-super-container:hover {
+  color: crimson;
+}
